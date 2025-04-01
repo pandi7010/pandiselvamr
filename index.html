@@ -10,7 +10,95 @@
     <link rel="icon" href="https://media.licdn.com/dms/image/v2/D5603AQHcAR1X57YbDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711556650703?e=2147483647&v=beta&t=aHrXWZULM0rG85O78cx0clVd82CE3luepQC4BerjStU">
 </head>
 <body>
-    
+    <!-- Welcome Banner Modal -->
+<div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header" style="background: linear-gradient(to right, #0A3D62, #1B98F5); color: white;">
+                <h5 class="modal-title" id="welcomeModalLabel">
+                    <i class="fas fa-hand-wave"></i> Welcome to My Portfolio!
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <div class="text-center">
+                    <img src="https://media.licdn.com/dms/image/v2/D5603AQHcAR1X57YbDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711556650703?e=2147483647&v=beta&t=aHrXWZULM0rG85O78cx0clVd82CE3luepQC4BerjStU" 
+                         alt="Welcome Image" 
+                         class="img-fluid rounded-circle mb-4" 
+                         style="width: 120px; height: 120px; border: 3px solid #1B98F5;">
+                </div>
+                <p class="text-center">
+                    <strong>Hello and welcome!</strong> I'm thrilled to have you here. Explore my portfolio to learn more about my journey, skills, and projects.
+                </p>
+                <hr>
+                <h5 class="text-center mb-4">"The only way to do great work is to love what you do." – <strong>Steve Jobs</strong></h5>
+                <h5 class="text-center mb-4">Table of Contents</h5>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <i class="fas fa-user"></i> 
+                        <a href="#about" class="text-decoration-none">About Me</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-star"></i> 
+                        <a href="#highlights" class="text-decoration-none">Highlights</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-project-diagram"></i> 
+                        <a href="#projects" class="text-decoration-none">Projects</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-tools"></i> 
+                        <a href="#skills" class="text-decoration-none">Skills</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-cogs"></i> 
+                        <a href="#technologies" class="text-decoration-none">Technologies</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-robot"></i> 
+                        <a href="#ai-tools" class="text-decoration-none">Famous AI Tools</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-chart-line"></i> 
+                        <a href="#recent-tech-trends" class="text-decoration-none">Recent Tech Trends</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-certificate"></i> 
+                        <a href="#certifications" class="text-decoration-none">Certifications</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-smile"></i> 
+                        <a href="#fun-section" class="text-decoration-none">Fun Zone</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-images"></i> 
+                        <a href="#photo-gallery" class="text-decoration-none">Photo Gallery</a>
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-envelope"></i> 
+                        <a href="#contact" class="text-decoration-none">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Modal Footer -->
+            <div class="modal-footer" style="background: linear-gradient(to right, #1B98F5, #0A3D62);">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">
+                    <i class="fas fa-arrow-right"></i> Start Exploring
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Show the welcome modal when the page loads
+    window.onload = function() {
+        const welcomeModal = new bootstrap.Modal(document.getElementById('welcomeModal'));
+        welcomeModal.show();
+    };
+</script>
     <!-- WhatsApp and Mail Chat Icons -->
 <div class="chat-icons">
     <a href="https://wa.me/917010953595" target="_blank" class="whatsapp-chat">
@@ -591,6 +679,212 @@
                                 Runway ML is an AI tool for video editing, enabling creators to generate and edit videos effortlessly.
                             </p>
                             <a href="https://runwayml.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tech-leaders" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Favorite & Most Successful Tech Business People</h2>
+            <div class="row g-4">
+                <!-- Elon Musk -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://www.accessintel.com/wp-content/uploads/2019/12/Elon_Musk.jpg" 
+                             alt="Elon Musk" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Elon Musk</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Tesla, SpaceX, Neuralink, Twitter (X)<br>
+                                <strong>Success Story:</strong> Elon Musk revolutionized the electric vehicle industry with Tesla, advanced space exploration with SpaceX, and continues to innovate in AI and renewable energy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sundar Pichai -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://c.files.bbci.co.uk/11CB0/production/_84808827_gettyimages-464948948.jpg" 
+                             alt="Sundar Pichai" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Sundar Pichai</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Google, Alphabet Inc.<br>
+                                <strong>Success Story:</strong> Sundar Pichai rose from humble beginnings in India to lead Google and Alphabet, driving innovation in AI, cloud computing, and search technologies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Satya Nadella -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://images.cnbctv18.com/wp-content/uploads/2020/10/Satya-Nadella.jpg" 
+                             alt="Satya Nadella" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Satya Nadella</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Microsoft<br>
+                                <strong>Success Story:</strong> Satya Nadella transformed Microsoft into a cloud computing leader, focusing on innovation, inclusivity, and sustainability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jeff Bezos -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://ichef.bbci.co.uk/news/480/cpsprodpb/51C3/production/_110513902_gettyimages-1177532680.jpg.webp" 
+                             alt="Jeff Bezos" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Jeff Bezos</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Amazon, Blue Origin<br>
+                                <strong>Success Story:</strong> Jeff Bezos built Amazon into the world's largest online retailer and expanded into space exploration with Blue Origin.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mark Zuckerberg -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-113860995/113860995.jpg" 
+                             alt="Mark Zuckerberg" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Mark Zuckerberg</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Meta (Facebook, Instagram, WhatsApp)<br>
+                                <strong>Success Story:</strong> Mark Zuckerberg revolutionized social media with Facebook and expanded into virtual reality with Meta.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tim Cook -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="https://images.moneycontrol.com/static-mcnews/2025/01/20250111015626_Tim-Cook.jpg?impolicy=website&width=770&height=431" 
+                             alt="Tim Cook" 
+                             class="card-img-top" 
+                             style="height: 300px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Tim Cook</h4>
+                            <p class="card-text">
+                                <strong>Companies:</strong> Apple<br>
+                                <strong>Success Story:</strong> Tim Cook successfully led Apple after Steve Jobs, focusing on innovation, privacy, and sustainability.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="tech-youtube-channels" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">My Favourite Tech YouTube Channels</h2>
+            <div class="row g-4">
+                <!-- Marques Brownlee -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="https://yt3.googleusercontent.com/PEwQfVuhh5jO7_NDDufCq349q0W6MgZeYlgeMyW3OSRMxMx9W5yre5Fgbi4Bql56L1cPwoteOA=s900-c-k-c0x00ffffff-no-rj" 
+                                 alt="Marques Brownlee" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">Marques Brownlee (MKBHD)</h4>
+                            <p class="card-text">
+                                Marques Brownlee reviews the latest gadgets, smartphones, and tech trends with high-quality videos.
+                            </p>
+                            <a href="https://www.youtube.com/user/marquesbrownlee" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- A2D Tamil Tech -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCvs1Ooz2kwYBeIhnAneuapvAyxGUYPhmWVA&s" 
+                                 alt="A2D Tamil Tech" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">A2D</h4>
+                            <p class="card-text">
+                                A2D Tamil Tech delivers tech news, reviews, and tutorials in Tamil for a regional audience.
+                            </p>
+                            <a href="https://www.youtube.com/c/A2DTamilTech" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tech Tamizha -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="data:image/jpeg;base64,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" 
+                                 alt="Tech Tamizha" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">Tech Tamizha</h4>
+                            <p class="card-text">
+                                Tech Tamizha provides engaging tech content, including reviews, unboxings, and tutorials in Tamil.
+                            </p>
+                            <a href="https://www.youtube.com/c/TechTamizha" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Technical Guruji -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="https://i.scdn.co/image/ab67656300005f1fb30cd1f44de952338e70a05a" 
+                                 alt="Technical Guruji" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">Technical Guruji</h4>
+                            <p class="card-text">
+                                Technical Guruji provides tech news, reviews, and unboxings in Hindi for Indian audiences.
+                            </p>
+                            <a href="https://www.youtube.com/c/TechnicalGuruji" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tamil Tech -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="https://yt3.googleusercontent.com/fyTHEVIdtZ4KCgTkfxhhFWhMkK1hN7J_4FLAs18pEO0RoAQMD2Hspzf29XxurbXSgqzXflSetSs=s900-c-k-c0x00ffffff-no-rj" 
+                                 alt="Tamil Tech" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">Tamil Tech</h4>
+                            <p class="card-text">
+                                Tamil Tech covers the latest gadgets, tech news, and tutorials in Tamil.
+                            </p>
+                            <a href="https://www.youtube.com/c/TamilTechOfficial" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- CNET -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <img src="https://yt3.googleusercontent.com/SGoD0SodPuysPRUSFI8jd_eqR-ZCgvxhZk905338O1NUYI5eUqMZ1lQaekFNiDggJh0lA_5kQg=s160-c-k-c0x00ffffff-no-rj" 
+                                 alt="CNET" 
+                                 class="img-fluid rounded-circle mb-3" 
+                                 style="width: 100px; height: 100px;">
+                            <h4 class="card-title">CNET</h4>
+                            <p class="card-text">
+                                CNET covers the latest tech news, product reviews, and how-to guides for tech enthusiasts.
+                            </p>
+                            <a href="https://www.youtube.com/user/CNETTV" target="_blank" class="btn btn-primary btn-sm">Visit Channel</a>
                         </div>
                     </div>
                 </div>
