@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F4F6F6;
+    color: #2C3E50;
+    
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images6/The-best-4K-City-Background.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-white {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Footer */
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
+
+
+/* Blinking Registration Deadline */
+.blinking-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    animation: blink 1s infinite;
+    background-image: linear-gradient(90deg, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/* About Section */
+#about img {
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid transparent;
+    background-image: linear-gradient(90deg, blue, red, green, yellow, purple);
+    background-origin: border-box;
+    background-clip: border-box;
+    background-size: 200% 200%;
+    animation: animate-border 4s linear infinite;
+}
+
+@keyframes animate-border {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+h3 {
+    font-weight: 700;
+    color: #0A3D62;
+}
+
+.btn-outline-primary {
+    border-color: #0A3D62;
+    color: #0A3D62;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0A3D62;
+    color: #fff;
+}
+
+/* Text Animation */
+.txt {
+    font-size: 3rem;
+    font-weight: bold;
+    background: linear-gradient(90deg, blue, pink);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: animate-text 4s linear infinite;
+    background-size: 20% 20%;
+}
+
+@keyframes animate-text {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* Animation Styles */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animated.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+.animated.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+/* Projects Section */
+#projects .card {
+    transition: transform 0.3s ease;
+}
+
+#projects .card:hover {
+    transform: translateY(-10px);
+}
+
+#projects .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+

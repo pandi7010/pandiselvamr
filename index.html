@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pandiselvam R</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D5603AQHcAR1X57YbDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711556650703?e=2147483647&v=beta&t=aHrXWZULM0rG85O78cx0clVd82CE3luepQC4BerjStU">
+</head>
+<body>
+    
+    <!-- WhatsApp and Mail Chat Icons -->
+<div class="chat-icons">
+    <a href="https://wa.me/917010953595" target="_blank" class="whatsapp-chat">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Chat with us on WhatsApp">
+    </a>
+    <a href="mailto:pandiselvam1216@gmail.com" target="_blank" class="mail-chat">
+        <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Send us an Email">
+    </a>
+</div>
+
+<!-- WhatsApp and Mail Chat Icons CSS -->
+<style>
+    .chat-icons {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .whatsapp-chat, .mail-chat {
+        background-color: #ffffff;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .whatsapp-chat:hover, .mail-chat:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-chat img, .mail-chat img {
+        width: 40px;
+        height: 40px;
+    }
+    html {
+    scroll-behavior: smooth;
+}
+</style>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0A3D62;">
+    <div class="container">
+        <a class="navbar-brand" href="#">Pandiselvam R</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#highlights">Highlights</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#technologies">Technologies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ai-tools">AI Tools</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#social-media">Social Media</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section d-flex align-items-center justify-content-center text-center" style="background-image: url('https://wallpapercave.com/wp/wp5982387.jpg'); background-size: cover; background-position: center; position: relative; height: 100vh;">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));"></div>
+    <div class="text-white animated fadeInDown" style="position: relative; z-index: 1;">
+        <h1 class="display-3 animated fadeInDown" style="font-weight: 700; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); animation-delay: 0.5s;">Pandiselvam R</h1>
+        <p class="lead animated fadeInUp" style="font-weight: 300; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); animation-delay: 1s;">Electronics Engineer | Patent Holder | Web Developer | Innovator | All India Inter-University Player</p>
+        <a href="#projects" class="btn btn-primary mt-3 animated fadeInUp" style="border-radius: 50px; padding: 10px 20px; font-weight: 500; animation-delay: 1.5s;">Explore My Work</a>
+    </div>
+</header>
+
+    <!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="https://media.licdn.com/dms/image/v2/D5603AQHcAR1X57YbDg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711556650703?e=2147483647&v=beta&t=aHrXWZULM0rG85O78cx0clVd82CE3luepQC4BerjStU" alt="Pandiselvam R" class="img-fluid rounded-circle mb-4" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="col-md-6">
+                <h3 class="mb-3">Hello, I'm Pandiselvam R</h3>
+                <p class="about-text text-justify">
+                    I’m an aspiring Electronics and Communication Engineer with a passion for circuit design and web development. I have a strong background in both hardware and software, and I enjoy solving complex problems using cutting-edge technologies.
+                </p>
+                <p class="about-text text-justify">
+                    My journey in electronics started at a young age, and over the years, I have honed my skills in various domains including embedded systems, IoT, and software development. I am always eager to learn new technologies and apply them in innovative ways.
+                </p>
+                <p class="about-text text-justify">
+                    In addition to my technical skills, I am an All India Inter-University Player, which has taught me the importance of teamwork, discipline, and perseverance. I believe in continuous improvement and strive to be a better version of myself every day.
+                </p>
+                
+                <!-- Resume Button -->
+<a href="#" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#resumeModal" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">View Resume</a>
+
+<!-- Resume Modal -->
+<div class="modal fade" id="resumeModal" tabindex="-1" aria-labelledby="resumeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="resumeModalLabel">My Resume</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://drive.google.com/file/d/1lwwdk5vIfVSa1cQSjh1hHIr_VDlCnVCl/preview" width="100%" height="500px" style="border: none;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="timeline" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">My Journey</h2>
+        <ul class="timeline">
+            <li>
+                <h5>2022 - Present</h5>
+                <p>Studying as a BE Electronics and Communication Engineering at V. S. B. ENGINEERING COLLEGE, KARUR</p>
+            </li>
+            <li>
+                <h5>2021 - 2022</h5>
+                <p>Completed HSC at S.P.M OXFORD MATRIC HIGHER SECONDARY SCHOOL, ODDANCHATRAM</p>
+            </li>
+            <li>
+                <h5>2018 - 2019</h5>
+                <p>Completed SSLC at S.P.M OXFORD MATRIC HIGHER SECONDARY SCHOOL, ODDANCHATRAM</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Highlights Section with colorful design -->
+<section id="highlights" class="py-5" style="background-color: #f8f9fa;">
+    <div class="container">
+        <h2 class="text-center mb-5">Highlights</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body text-center">
+                        <h4 class="card-title
+                        ">PATENT HOLDER</h4>
+                        <p class="card-text">EXPERT INTELLIGENCE: AI-POWERED REAL-TIME KNOWLEDGE ACCESS</p>
+                        <!--view button-->
+                        <a href="https://drive.google.com/file/d/1uHkxzxQDCeL_8Rv3mXx6bdfRbL4K1UTn/view?usp=sharing" class="btn btn-primary mt-3" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">View Patent</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body text-center">
+                        <h4 class="card-title
+                        ">ALL INDIA INTER-UNIVERSITY PLAYER</h4>
+                        <p class="card-text">REPRESENTED ANNA UNIVERSITY IN ALL INDIA ROLLER HOCKEY CHAMPIONSHIP</p>
+                        <a href="https://drive.google.com/file/d/1_xHWKmdn7NnoN2-3_K3sffyhw6jmcRjH/view?usp=sharing" class="btn btn-primary mt-3" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow">
+                    <div class="card-body text-center">
+                        <h4 class="card-title
+                        ">NEURA GLOBAL</h4>
+                        <p class="card-text">Neura Global is an Indian tech powerhouse set to redefine innovation by 2030. , delivering powerful software and hardware
+                            solutions to tackle real-world challenges.</p>
+                        <a href="https://pandi7010.github.io/neura-global/" class="btn btn-primary mt-3" style="border-radius: 50px; padding: 10px 20px; font-weight: 500;">View website</a>
+        </div>
+    </div>
+</section>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Projects</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Project Name</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Technologies Used</th>
+                            <th scope="col">Verify Link</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Engineering Cutoff Calculator</td>
+                            <td>A web application to calculate engineering cutoff marks.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://pandi7010.github.io/Engineering-cutoff-calculator/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Food Order Platform</td>
+                            <td>An online platform for ordering food.</td>
+                            <td>HTML, CSS, Bootstrap</td>
+                            <td>
+                                <a href="https://pandi7010.github.io/food-munch/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Encryption and Decryption Software</td>
+                            <td>A tool for encrypting and decrypting text data.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://pandiselvam-encryption-and-decryption.netlify.app/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Automatic Letter Builder</td>
+                            <td>A web app to generate formatted letters automatically.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://pandi7010.github.io/Letter-Builder/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Discount Calculator</td>
+                            <td>A simple tool to calculate discounts on products.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://pandi7010.github.io/discount-calculator/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Story Book Application</td>
+                            <td>A platform to read and share stories online.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://tamil-story-book.netlify.app/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Resistor Colour Coder</td>
+                            <td>A tool to calculate resistor values based on color codes.</td>
+                            <td>HTML, CSS, JavaScript</td>
+                            <td>
+                                <a href="https://pandi7010.github.io/Resistor-color-coder/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Generative AI Application</td>
+                            <td>An AI-powered chatbot for generating responses.</td>
+                            <td>HTML, CSS, JavaScript, Python</td>
+                            <td>
+                                <a href="https://pandiaichatbot.ccbp.tech/" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Real Mart Sales Dashboard</td>
+                            <td>A data analytics dashboard for sales insights.</td>
+                            <td>Power BI</td>
+                            <td>
+                                <a href="#" target="_blank" class="btn btn-primary btn-sm">Verify</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, Bootstrap, Python with Flask</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Tools & other</h3>
+                    <p>Git, GitHub, AWS, Figma, Power BI, AI Tools, Prompt Engineering</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Programming</h3>
+                    <p>Python, Java, SQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Scrolling Section -->
+    <section id="certifications" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Certifications</h2>
+            <div id="certificationCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center">
+                            <h4>Cybersecurity - Infosys Springboard</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>Java Fundamentals - Scalar</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>Internet of Things (IoT) - LinkedIn Learning</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>Prompt Engineering and Generative AI - LinkedIn Learning</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>Google Cloud - Generative AI</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#certificationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#certificationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="technologies" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Technologies of Today</h2>
+            <div class="row g-4">
+                <!-- Artificial Intelligence -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Artificial Intelligence (AI)</h4>
+                            <p class="card-text">
+                                AI is transforming industries with applications in machine learning, natural language processing, and computer vision.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Internet of Things -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Internet of Things (IoT)</h4>
+                            <p class="card-text">
+                                IoT connects devices to the internet, enabling smart homes, industrial automation, and connected healthcare.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blockchain -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Blockchain</h4>
+                            <p class="card-text">
+                                Blockchain ensures secure and transparent transactions, powering cryptocurrencies and decentralized applications.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cloud Computing -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Cloud Computing</h4>
+                            <p class="card-text">
+                                Cloud platforms like AWS, Azure, and Google Cloud provide scalable infrastructure for businesses and developers.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cybersecurity -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Cybersecurity</h4>
+                            <p class="card-text">
+                                Cybersecurity protects systems and data from cyber threats, ensuring privacy and security in the digital age.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Cybersecurity" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Generative AI -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Generative AI</h4>
+                            <p class="card-text">
+                                Generative AI models like ChatGPT and DALL-E are revolutionizing content creation and human-computer interaction.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Augmented Reality & Virtual Reality -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Augmented & Virtual Reality (AR/VR)</h4>
+                            <p class="card-text">
+                                AR and VR are reshaping gaming, training, and education with immersive experiences.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Augmented_reality" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quantum Computing -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Quantum Computing</h4>
+                            <p class="card-text">
+                                Quantum computing leverages quantum mechanics to solve complex problems exponentially faster.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Quantum_computing" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Robotics -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Robotics</h4>
+                            <p class="card-text">
+                                Robotics enhances automation in industries, from manufacturing to healthcare and space exploration.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Robotics" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5G & Next-Gen Networks -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">5G & Next-Gen Networks</h4>
+                            <p class="card-text">
+                                5G technology is revolutionizing connectivity with ultra-fast speeds and low latency for enhanced communication.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/5G" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="ai-tools" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Famous AI Tools</h2>
+            <div class="row g-4">
+                <!-- ChatGPT -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">ChatGPT</h4>
+                            <p class="card-text">
+                                ChatGPT by OpenAI is a conversational AI model that can generate human-like text for various applications.
+                            </p>
+                            <a href="https://chat.openai.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gemini -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Gemini</h4>
+                            <p class="card-text">
+                                Gemini by Google DeepMind combines language understanding with advanced reasoning capabilities.
+                            </p>
+                            <a href="https://www.deepmind.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grok -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Grok</h4>
+                            <p class="card-text">
+                                Grok by xAI, founded by Elon Musk, is an AI chatbot designed for real-time, context-aware interactions.
+                            </p>
+                            <a href="https://x.ai/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- DALL-E -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">DALL-E</h4>
+                            <p class="card-text">
+                                DALL-E by OpenAI generates images from textual descriptions, enabling creative visual content creation.
+                            </p>
+                            <a href="https://openai.com/dall-e" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MidJourney -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">MidJourney</h4>
+                            <p class="card-text">
+                                MidJourney is an AI-powered tool for generating stunning and artistic images from text prompts.
+                            </p>
+                            <a href="https://www.midjourney.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jasper AI -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Jasper AI</h4>
+                            <p class="card-text">
+                                Jasper AI is a content generation tool that helps create blogs, ads, and marketing content efficiently.
+                            </p>
+                            <a href="https://www.jasper.ai/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bard -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Bard</h4>
+                            <p class="card-text">
+                                Bard by Google is an AI chatbot designed to assist with creative and research-based tasks.
+                            </p>
+                            <a href="https://bard.google.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copilot -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">GitHub Copilot</h4>
+                            <p class="card-text">
+                                GitHub Copilot is an AI-powered coding assistant that helps developers write code faster and smarter.
+                            </p>
+                            <a href="https://github.com/features/copilot" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Canva Magic Write -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Canva Magic Write</h4>
+                            <p class="card-text">
+                                Canva Magic Write uses AI to generate text for presentations, social media posts, and more.
+                            </p>
+                            <a href="https://www.canva.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Runway ML -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Runway ML</h4>
+                            <p class="card-text">
+                                Runway ML is an AI tool for video editing, enabling creators to generate and edit videos effortlessly.
+                            </p>
+                            <a href="https://runwayml.com/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recent-tech-trends" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Recent Tech Trends</h2>
+            <div class="row g-4">
+                <!-- Ghibli Art Style -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Ghibli Art Style</h4>
+                            <p class="card-text">
+                                Inspired by Studio Ghibli, this trend uses AI to create stunning, hand-drawn-like animations and illustrations.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> AI models like Stable Diffusion and MidJourney analyze Ghibli-style art to generate similar visuals.
+                            </p>
+                            <a href="https://www.ghibli.jp/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI-Generated Music -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">AI-Generated Music</h4>
+                            <p class="card-text">
+                                AI tools like AIVA and OpenAI's Jukebox compose music in various genres, mimicking human creativity.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> AI models analyze music patterns and generate compositions based on user inputs.
+                            </p>
+                            <a href="https://www.aiva.ai/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Digital Twins -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Digital Twins</h4>
+                            <p class="card-text">
+                                Digital Twins are virtual replicas of physical systems, used for simulation, monitoring, and optimization.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> IoT sensors collect real-time data, which is used to create and update the digital twin.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Digital_twin" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI-Powered Avatars -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">AI-Powered Avatars</h4>
+                            <p class="card-text">
+                                AI tools like Lensa and Ready Player Me create personalized avatars for gaming, social media, and virtual worlds.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> AI analyzes user photos and generates avatars using neural networks.
+                            </p>
+                            <a href="https://www.lensa.ai/" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Edge AI -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Edge AI</h4>
+                            <p class="card-text">
+                                Edge AI processes data locally on devices like smartphones and IoT gadgets, reducing latency and improving privacy.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> AI models are deployed on edge devices, enabling real-time decision-making without cloud dependency.
+                            </p>
+                            <a href="https://en.wikipedia.org/wiki/Edge_AI" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI in Healthcare -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">AI in Healthcare</h4>
+                            <p class="card-text">
+                                AI is revolutionizing healthcare with applications in diagnostics, drug discovery, and personalized medicine.
+                            </p>
+                            <p class="card-text">
+                                <strong>How it works:</strong> AI models analyze medical data to identify patterns and provide insights for better decision-making.
+                            </p>
+                            <a href="https://www.ibm.com/watson-health" target="_blank" class="btn btn-primary btn-sm">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--PPT presentation embedded link for all companies like TCS, Wipro etc..-->
+
+    <section id="ppt" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">PPT Presentation</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Company Logo</th>
+                            <th scope="col">Company Name</th>
+                            <th scope="col">PPT Document</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="https://banner2.cleanpng.com/lnd/20250117/ww/cf08cc3a7d2ff9f6cdf9b771cd22fe.webp" alt="TCS Logo" style="width: 50px; height: auto;">
+                            </td>
+                            <td>TCS</td>
+                            <td>
+                                <a href="https://docs.google.com/presentation/d/1bgbat7PrkV-PpSe2yKPKnyTlFJg1uYeQ/edit?usp=sharing&ouid=100527165239595629554&rtpof=true&sd=true" target="_blank" class="btn btn-primary btn-sm">View PPT</a>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="top-companies" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Top 10 IT and Hardware Companies in India </h2>
+            <h4 class="text-center mb-5 blinking-text">Data Last updated: 27-03-2025 | 10:00 pm</h4>
+
+    
+            <!-- IT Companies Table -->
+            <h3 class="text-center mb-4">Top 10 IT Companies | <a href="https://www.forbesindia.com/article/explainers/top-10-it-companies-in-india/87143/1"> Forbes 2024 Article</a></h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Company Name</th>
+                            <th scope="col">Industry</th>
+                            <th scope="col">Market Cap (₹ Rs Lakh Crore)</th>
+                            <th scope="col">Employees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Tata Consultancy Services (TCS)</td>
+                            <td>IT Services</td>
+                            <td>14.61</td>
+                            <td>614,795</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Infosys</td>
+                            <td>IT Services</td>
+                            <td>7.47</td>
+                            <td>317,240</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>HCL Technologies</td>
+                            <td>IT Services</td>
+                            <td>4.88</td>
+                            <td>219,000</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Wipro Limited</td>
+                            <td>IT Services</td>
+                            <td>3.12</td>
+                            <td>234,054</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>5</td>
+                            <td>LTIMindtree Ltd.</td>
+                            <td>IT Services</td>
+                            <td>1.71</td>
+                            <td>81,650</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Tech Mahindra</td>
+                            <td>IT Services</td>
+                            <td>1.61</td>
+                            <td>145,455</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Persistent Systems Ltd</td>
+                            <td>IT Services</td>
+                            <td>0.92</td>
+                            <td>23,000</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Oracle Financial Services Software Ltd</td>
+                            <td>IT Services</td>
+                            <td>0.85</td>
+                            <td>8,754</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Coforge Ltd  </td>
+                            <td>IT Services</td>
+                            <td>0.55</td>
+                            <td>24,607</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>MphasiS Ltd.</td>
+                            <td>IT Services</td>
+                            <td>0.52</td>
+                            <td>31,601</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <!-- Hardware Companies Table -->
+            <h3 class="text-center mb-4">Top Hardware Companies</h3>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Company Name</th>
+                            <th scope="col">Industry</th>
+                            <th scope="col">Revenue (₹ Crores)</th>
+                            <th scope="col">Employees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Intel India</td>
+                            <td>Semiconductors</td>
+                            <td>50,000</td>
+                            <td>13,700</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Samsung Electronics</td>
+                            <td>Consumer Electronics</td>
+                            <td>82,000</td>
+                            <td>20,000</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>HP India</td>
+                            <td>Computers & Printers</td>
+                            <td>45,000</td>
+                            <td>6,000</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Dell Technologies</td>
+                            <td>Computers</td>
+                            <td>40,000</td>
+                            <td>10,000</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Lenovo India</td>
+                            <td>Computers</td>
+                            <td>35,000</td>
+                            <td>5,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    
+    
+            
+    
+
+    <!-- Services Scrolling Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Services</h2>
+            <div id="certificationCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center">
+                            <h4>Pandiselvam Intelligence - Expert Tool</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>L'earnison - Youtube Channel</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center">
+                            <h4>Neura Global - Own startup company</h4>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#certificationCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#certificationCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Testimonials</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p>"Pandiselvam is a highly skilled and innovative engineer. His ability to solve complex problems is remarkable."</p>
+                                <footer class="blockquote-footer">Dr. R. RameshBabu, Professor at V. S. B. ENGINEERING COLLEGE, KARUR</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p>"His dedication and passion for web development and IoT projects are truly inspiring."</p>
+                                <footer class="blockquote-footer">Mrs. K. Uthradevi, V. S. B. ENGINEERING COLLEGE, KARUR</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Hobbies and Interests</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="fas fa-code fa-3x mb-3"></i>
+                    <h5>Coding</h5>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-music fa-3x mb-3"></i>
+                    <h5>Music</h5>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-basketball-ball fa-3x mb-3"></i>
+                    <h5>Sports</h5>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-book fa-3x mb-3"></i>
+                    <h5>Reading</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="motivational-quotes" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Motivational Quotes</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-3">"Innovation distinguishes between a leader and a follower."</p>
+                                <footer class="blockquote-footer">Steve Jobs, <cite title="Source Title">Apple Inc.</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-3">"The only way to do great work is to love what you do."</p>
+                                <footer class="blockquote-footer">Ratan Tata, <cite title="Source Title">Tata Group</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-3">"Success is not final; failure is not fatal: It is the courage to continue that counts."</p>
+                                <footer class="blockquote-footer">Winston Churchill</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card h-100 border-0 shadow">
+                        <div class="card-body">
+                            <blockquote class="blockquote">
+                                <p class="mb-3">"Your most unhappy customers are your greatest source of learning."</p>
+                                <footer class="blockquote-footer">Bill Gates, <cite title="Source Title">Microsoft</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fun-section" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Fun Zone</h2>
+    
+            <!-- Jokes Section -->
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h3 class="text-center">Tech Jokes</h3>
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <strong>Why do programmers prefer dark mode?</strong><br>
+                                Because light attracts bugs!
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <strong>Why was the computer cold?</strong><br>
+                                It left its Windows open!
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <strong>Why do Java developers wear glasses?</strong><br>
+                                Because they can't C#!
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <strong>How do you comfort a JavaScript bug?</strong><br>
+                                You console it!
+                            </p>
+                            <hr>
+                            <p class="card-text">
+                                <strong>Why did the developer go broke?</strong><br>
+                                Because he used up all his cache!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Fun Facts Section -->
+            <div class="row mb-5">
+                <div class="col-md-12">
+                    <h3 class="text-center">Fun Tech Facts</h3>
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">The first computer virus was created in 1986 and was called "Brain."</li>
+                                <li class="list-group-item">The first 1GB hard drive was announced in 1980 and weighed over 500 pounds!</li>
+                                <li class="list-group-item">The first email was sent by Ray Tomlinson to himself in 1971.</li>
+                                <li class="list-group-item">The original name of Windows was "Interface Manager."</li>
+                                <li class="list-group-item">The first website ever created is still online: <a href="http://info.cern.ch" target="_blank">info.cern.ch</a>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Random Tech Trivia -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center">Random Tech Trivia</h3>
+                    <div class="card border-0 shadow">
+                        <div class="card-body text-center">
+                            <p id="trivia-text" class="card-text mb-4">Click the button below to reveal a random tech trivia!</p>
+                            <button id="trivia-button" class="btn btn-primary">Show Trivia</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Random Tech Trivia
+        const triviaList = [
+            "The first computer mouse was made of wood.",
+            "The first domain name ever registered was Symbolics.com in 1985.",
+            "More than 90% of the world's currency exists only on computers.",
+            "The first iPhone was released in 2007, but the first smartphone was created in 1992 by IBM.",
+            "The first video uploaded to YouTube was titled 'Me at the zoo' and was uploaded in 2005.",
+            "Bill Gates wrote the first version of Microsoft Windows in just two weeks.",
+            "The first computer game ever created was 'Spacewar!' in 1962.",
+            "The first email spam was sent in 1978 to 400 people.",
+            "The first search engine was called 'Archie,' created in 1990.",
+            "The first computer programmer was Ada Lovelace in the 1840s."
+        ];
+    
+        document.getElementById('trivia-button').addEventListener('click', function () {
+            const randomTrivia = triviaList[Math.floor(Math.random() * triviaList.length)];
+            document.getElementById('trivia-text').innerText = randomTrivia;
+        });
+    </script>
+    <section id="photo-gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Photo Gallery</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQGK45SUv9gRaA/feedshare-shrink_800/feedshare-shrink_800/0/1699340937862?e=1746057600&v=beta&t=uY-WujKJMMtkjuWdxS_SSfROX3Ma1ZCpnL6mSG0eT-A" class="card-img-top" alt="Gallery Image 1">
+                        <div class="card-body text-center">
+                            <p class="card-text">IoT and PLC workshop</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQHRx2EcYfCOyw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724683841635?e=1746057600&v=beta&t=CE_EH4er0gRM4dDpGicCr3_skdd7EydMV08-JpZT4J8" class="card-img-top" alt="Gallery Image 2">
+                        <div class="card-body text-center">
+                            <p class="card-text">Smart India Hackathon 2024 conducted in our college</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQHDLqLulaf3RA/feedshare-shrink_800/feedshare-shrink_800/0/1727366266182?e=1746057600&v=beta&t=U94Wn4r91iraTTwN1nWXZjK5eZ2hto6ZGSFDLiKYoTE" class="card-img-top" alt="Gallery Image 3">
+                        <div class="card-body text-center">
+                            <p class="card-text">IOT workshop at SNS College, Coimbatore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQF4B36MkuvTlg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1728735453983?e=1746057600&v=beta&t=_MnBWDQNX3trZF-E6esVWdb_nITE9F4rtrL4Z-d0fvc" class="card-img-top" alt="Gallery Image 4">
+                        <div class="card-body text-center">
+                            <p class="card-text">Dindigul Book fair 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQEb1Ic4GDux9A/feedshare-shrink_800/feedshare-shrink_800/0/1732894809608?e=1746057600&v=beta&t=Y_Zv6MGsbpoC1KrhumCA7a2LIfc0rFAhfH7S7WZ1a0U" class="card-img-top" alt="Gallery Image 5">
+                        <div class="card-body text-center">
+                            <p class="card-text">Patent Publication</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--secret button section with password protected, if i enter the password correctly i can able to view my file. The password is pandi1216-->
+    <section id="secret" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Files</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="secret-form">
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Enter Password</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">View File</button>
+                        <div id="error-message" class="text-danger mt-3" style="display: none;">Incorrect password. Please try again.</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.getElementById('secret-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const password = document.getElementById('password').value;
+            const correctPassword = 'pandikokila';
+            if (password === correctPassword) {
+                window.location.href = 'https://drive.google.com/drive/folders/1qWJNZa8gWiL-X1Cq7hxf6GPYmXkBcHpH?usp=sharing';
+            } else {
+                document.getElementById('error-message').style.display = 'block';
+            }
+        });
+    </script>
+    
+
+
+
+    <!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <center>
+            <h2 class="section-title mb-5">Contact Me</h2>
+        </center>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--social media links linkedIn, Instagram, X(Twitter), Facebook, Youtube -->
+<section id="social-media" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Social Media</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="https://www.linkedin.com/in/pandiselvam-r" target="_blank" class="text-dark text-decoration-none">
+                    <h3>LinkedIn</h3>
+                    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.instagram.com/pandiselvam_official/" target="_blank" class="text-dark text-decoration-none">
+                    <h3>Instagram</h3>
+                    <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram">
+                </a>
+            </div>
+            
+            
+            <div class="col-md-4">
+                <a href="https://youtube.com/@pandi-1216?si=UE3lFz4e0fBnQr8I" target="_blank" class="text-dark text-decoration-none">
+                    <h3>Youtube</h3>
+                    <img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+<footer class="text-white text-center py-3" style="background-color: #0A3D62;">
+    <p>&copy; 2025 <strong>Pandiselvam R</strong></p>
+    <div class="d-flex justify-content-center gap-3">
+        <a href="https://github.com/pandi7010" class="text-white" target="_blank" style="text-decoration: none;">
+            <i class="fab fa-github"></i> GitHub
+        </a> |
+        <a href="mailto:pandiselvam1216@gmail.com" class="text-white" style="text-decoration: none;">
+            <i class="fas fa-envelope"></i> Mail
+        </a> |
+        <a href="https://pandiconnect.ccbp.tech/" class="text-white" target="_blank" style="text-decoration: none;">
+            <i class="fas fa-link"></i> Connect More
+        </a>
+    </div>
+</footer>
+
+<!-- Add Font Awesome for Icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments)
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "og1qtt8rsx");
+    </script>
+</body>
+
+</html>
